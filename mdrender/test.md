@@ -99,14 +99,6 @@ This demonstrates task lists:
 ![A cute cat](https://placekitten.com/Image/wide)
 😊 😄 🤩
 
-## Complex Formatting Combination
-
-This is a test of combining several formatting elements.
-
-```
-*  This is **bold** *italic* underlined text.
-```
-
 ## Section with Multiple Code Fences
 
 This section includes multiple code fences to ensure that the renderer handles them correctly.
@@ -137,3 +129,25 @@ fn main() {
 </body>
 </html>
 ```
+
+## Section with Nested Code Fences
+
+````markdown
+# Code Project
+
+This is the README.md example for a cool json parser.
+
+## Installation
+
+```bash
+pip install cooljsonparser
+```
+
+## Usage
+
+Parse json file
+
+```bash
+cooljsonparser -f file.json
+```
+````
